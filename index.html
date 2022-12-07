@@ -30,18 +30,23 @@
 <section>
   <h2>Wie kommen wir zur Hintergger-Ranch?</h2>
 
+  <p>takern zug</p>
   <a class="">Routenplan</a>
 </section>
 
 <section>
   <h2>Übernachten</h2>
+
+  <ul>
+    <li>gruber / jeindl / zoller</li>
+    <li>gleisdorf</li>
+  </ul>
 </section>
 
 <footer>made with love and tailwind / vercel</footer>
 
-
 <style>
-    /* ! tailwindcss v3.2.4 | MIT License | https://tailwindcss.com */
+/* ! tailwindcss v3.2.4 | MIT License | https://tailwindcss.com */
 
 /*
 1. Prevent padding and border from affecting element width. (https://github.com/mozdevs/cssremedy/issues/4)
@@ -601,8 +606,10 @@ body {
   margin-left: auto;
   margin-right: auto;
   display: flex;
+  min-height: 100%;
   max-width: 24rem;
   flex-direction: column;
+  place-content: space-between;
   gap: 3rem;
   border-width: 1px;
   padding: 2rem;
@@ -627,8 +634,12 @@ h2 {
 }
 
 a {
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
   width: 66.666667%;
   cursor: pointer;
+  justify-content: center;
   --tw-bg-opacity: 1;
   background-color: rgb(220 38 38 / var(--tw-bg-opacity));
   padding-left: 2rem;
