@@ -1,7 +1,8 @@
 <h1>susanne wilfried reiter ladenhauf</h1>
+<small class="-mt-8 text-right">Hochzeitsfeier am 15. Juli 2023</small>
 
 <section>
-  <h2>Zeitliche Ablauf</h2>
+  <h2>Der Zeitliche Ablauf</h2>
 
   <table>
     <tr>
@@ -10,7 +11,7 @@
     </tr>
     <tr>
       <td>15:00</td>
-      <td>Empfang der Party göse</td>
+      <td>Empfang der Party Gäste</td>
     </tr>
     <tr>
       <td>18:00</td>
@@ -31,7 +32,7 @@
   <h2>Wie kommen wir zur Hintergger-Ranch?</h2>
 
   <p>takern zug</p>
-  <a class="">Routenplan</a>
+  <a target="blank" href="https://www.google.com/maps/dir/Gleisdorf,+8200/47.0282614,15.7714242/@47.0664296,15.6975194,9738m/data=!3m2!1e3!4b1!4m9!4m8!1m5!1m1!1s0x476e51b7d865316b:0x4a4cd8df13e8ef3a!2m2!1d15.7085092!2d47.1068416!1m0!3e0">Routenplan</a>
 </section>
 
 <section>
@@ -44,6 +45,7 @@
 </section>
 
 <footer>made with love and tailwind / vercel</footer>
+
 
 <style>
     /* ! tailwindcss v3.2.4 | MIT License | https://tailwindcss.com */
@@ -598,21 +600,33 @@ video {
   --tw-backdrop-sepia:  ;
 }
 
+.-mt-8 {
+  margin-top: -2rem;
+}
+
 .table {
   display: table;
+}
+
+.text-right {
+  text-align: right;
 }
 
 body {
   margin-left: auto;
   margin-right: auto;
   display: flex;
-  min-height: 100%;
-  max-width: 32rem;
   flex-direction: column;
   place-content: space-between;
   gap: 3rem;
   border-width: 1px;
   padding: 2rem;
+}
+
+@media (min-width: 1024px) {
+  body {
+    max-width: 32rem;
+  }
 }
 
 section {
@@ -665,4 +679,4 @@ footer {
   line-height: 1.25rem;
 }
 
-</style>>
+</style>
