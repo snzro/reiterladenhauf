@@ -6,7 +6,6 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>susannewilfriedreiterladenhauf</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
-    <script src="js.js"></script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
@@ -91,5 +90,49 @@
     </main>
   </div>
   
+  <script>
+
+anime.timeline({loop: true})
+.add({
+  targets: '.ml5 .line',
+  opacity: [0.5,1],
+  scaleX: [0, 1],
+  easing: "easeInOutExpo",
+  duration: 1500
+}).add({
+  targets: '.ml5 .line',
+  duration: 1000,
+  easing: "easeOutExpo",
+  translateY: (el, i) => (-0.625 + 0.625*2*i) + "em"
+}).add({
+  targets: '.ml5 .ampersand',
+  opacity: [0,1],
+  scaleY: [0.5, 1],
+  easing: "easeOutExpo",
+  duration: 1600,
+  offset: '-=600'
+}).add({
+  targets: '.ml5 .letters-left',
+  opacity: [0,1],
+  translateX: ["0.5em", 0],
+  easing: "easeOutExpo",
+  duration: 1600,
+  offset: '-=300'
+}).add({
+  targets: '.ml5 .letters-right',
+  opacity: [0,1],
+  translateX: ["-0.5em", 0],
+  easing: "easeOutExpo",
+  duration: 1600,
+  offset: '-=600'
+}).add({
+  targets: '.ml5',
+  opacity: 0,
+  duration: 10000,
+  easing: "easeOutExpo",
+  delay: 10000
+});
+
+  </script>
   </body>
   </html>
