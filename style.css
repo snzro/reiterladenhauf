@@ -673,13 +673,27 @@ h2 {
   }
 }
 
+table {
+  display: inline-table;
+  width: 100%;
+  justify-content: center;
+}
+
+td {
+  padding: 1rem;
+}
+
+tr:not(:last-child) {
+  border-bottom-width: 1px;
+}
+
 a.btn {
   cursor: pointer;
   justify-content: center;
   background-color: rgb(156 163 175 / var(--tw-bg-opacity));
   --tw-bg-opacity: 0.5;
-  padding-left: 2rem;
-  padding-right: 2rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
   padding-top: 1rem;
   padding-bottom: 1rem;
   text-align: center;
@@ -698,6 +712,13 @@ a.btn {
 a.btn:hover {
   --tw-border-opacity: 1;
   border-color: rgb(220 38 38 / var(--tw-border-opacity));
+}
+
+@media (min-width: 1024px) {
+  a.btn {
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
 }
 
 .btn.primary {
