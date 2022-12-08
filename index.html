@@ -1,133 +1,130 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>susannewilfriedreiterladenhauf</title>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    
     <div class="mx-auto">
-        <h1 class="ml5">
-            <span class="text-wrapper">
-              <span class="line line1"></span>
-              <span class="letters letters-left">susanne</span>
-              <span class="letters ampersand">&amp;</span>
-              <span class="letters letters-right">wilfried</span>
-              <span class="line line2"></span>
-            </span>
-          </h1>
+      <h1 class="ml5">
+        <span class="text-wrapper">
+          <span class="line line1"></span>
+          <span class="letters letters-left">susanne</span>
+          <span class="letters ampersand">&amp;</span>
+          <span class="letters letters-right">wilfried</span>
+          <span class="line line2"></span>
+        </span>
+      </h1>
     </div>
 
+    <div class="wrapper">
+      <main>
+        <section>
+          <h2>⏱️ Der Zeitliche Ablauf ⏱️</h2>
 
-<div class="wrapper">
-    <main>
-      <section>
-        <h2>Der Zeitliche Ablauf</h2>
-  
-        <table>
-          <tr>
-            <td>12:00</td>
-            <td>Festliche Tafel der Familie</td>
-          </tr>
-          <tr>
-            <td>15:00</td>
-            <td>Empfang der Party Gäste</td>
-          </tr>
-          <tr>
-            <td>18:00</td>
-            <td>Abendessen</td>
-          </tr>
-          <tr>
-            <td>PrimeTime</td>
-            <td>spielt eine FullSupaBand</td>
-          </tr>
-          <tr>
-            <td>00:00</td>
-            <td>Jausn</td>
-          </tr>
-        </table>
-      </section>
+          <table>
+            <tr>
+              <td>≈ 12:00</td>
+              <td>Festliche Tafel der Familie 🍴</td>
+            </tr>
+            <tr>
+              <td>≈ 15:00</td>
+              <td>Empfang der Party Gäste 🍾</td>
+            </tr>
+            <tr>
+              <td>≈ 18:00</td>
+              <td>Abendessen 🍔</td>
+            </tr>
+            <tr>
+              <td>≈ 20:00</td>
+              <td>Full Supa Band! 🎸</td>
+            </tr>
+            <tr>
+              <td>≈ 00:00</td>
+              <td>Jausn 🥖</td>
+            </tr>
+          </table>
+        </section>
 
-      <section>
-        <a class="btn primary" href="https://docs.google.com/forms/d/e/1FAIpQLScOs2yZgKenGxNTTdWmvP0UMUvo39lPW4NQzhxHIzDdApeVLA/viewform?usp=sf_link"> Zur Anmeldung </a>
-      </section>
-  
-      <section>
-        <h2>Wie kommen wir zur Hintergger-Ranch?</h2>
-  
-        <p>takern zug</p>
-  
-        <a class="btn" target="blank" href="https://www.google.com/maps/dir/Gleisdorf,+8200/47.0282614,15.7714242/@47.0664296,15.6975194,9738m/data=!3m2!1e3!4b1!4m9!4m8!1m5!1m1!1s0x476e51b7d865316b:0x4a4cd8df13e8ef3a!2m2!1d15.7085092!2d47.1068416!1m0!3e0">Routenplan von Gleisdorf</a>
-        <a class="btn" target="blank" href="https://www.google.com/maps/dir/Gleisdorf,+8200/47.0282614,15.7714242/@47.0664296,15.6975194,9738m/data=!3m2!1e3!4b1!4m9!4m8!1m5!1m1!1s0x476e51b7d865316b:0x4a4cd8df13e8ef3a!2m2!1d15.7085092!2d47.1068416!1m0!3e0">Routenplan von Markt Hartmannsdorf</a>
-      </section>
-  
-      <section>
-        <h2>Übernachtungsmöglichkeiten</h2>
-  
-        <ul class="flex flex-col gap-2">
-          <li>
-            <a href="https://www.gasthof-gruber.at/">Gasthof Gruber - Markt Hartmannsdorf</a>
-          </li>
-          <li>
-            <a href="https://www.gaestehausjeindl.com/">Gästehaus Jeindl - Markt Hartmannsdorf</a>
-          </li>
-          <li>
-            <a href="http://bauernhofzoller.com/de/willkommen/">Bauernhof Zolller - Markt Hartmannsdorf</a>
-          </li>
-          <li><a href="https://ambio.co.at/">Ambio, Hotel - Gleisdorf</a></li>
-          <li>oder campieren auf der Hintergger-Ranch!</li>
-        </ul>
-      </section>
-    </main>
-  </div>
-  
-  <script>
+        <section>
+          <a class="btn primary" href="https://docs.google.com/forms/d/e/1FAIpQLScOs2yZgKenGxNTTdWmvP0UMUvo39lPW4NQzhxHIzDdApeVLA/viewform?usp=sf_link">Zur Anmeldung ✏️</a>
+        </section>
 
-anime.timeline({loop: true})
-.add({
-  targets: '.ml5 .line',
-  opacity: [0.5,1],
-  scaleX: [0, 1],
-  easing: "easeInOutExpo",
-  duration: 1500
-}).add({
-  targets: '.ml5 .line',
-  duration: 1000,
-  easing: "easeOutExpo",
-  translateY: (el, i) => (-0.625 + 0.625*2*i) + "em"
-}).add({
-  targets: '.ml5 .ampersand',
-  opacity: [0,1],
-  scaleY: [0.5, 1],
-  easing: "easeOutExpo",
-  duration: 1600,
-  offset: '-=600'
-}).add({
-  targets: '.ml5 .letters-left',
-  opacity: [0,1],
-  translateX: ["0.5em", 0],
-  easing: "easeOutExpo",
-  duration: 1600,
-  offset: '-=300'
-}).add({
-  targets: '.ml5 .letters-right',
-  opacity: [0,1],
-  translateX: ["-0.5em", 0],
-  easing: "easeOutExpo",
-  duration: 1600,
-  offset: '-=600'
-}).add({
-  targets: '.ml5',
-  opacity: 0,
-  duration: 10000,
-  easing: "easeOutExpo",
-  delay: 10000
-});
+        <section>
+          <h2>🧭 Wie kommen wir zur Hintergger-Ranch? 🧭</h2>
 
-  </script>
+          <p>takern zug</p>
+
+          <a class="btn" target="blank" href="https://www.google.com/maps/dir/Gleisdorf,+8200/47.0282614,15.7714242/@47.0664296,15.6975194,9738m/data=!3m2!1e3!4b1!4m9!4m8!1m5!1m1!1s0x476e51b7d865316b:0x4a4cd8df13e8ef3a!2m2!1d15.7085092!2d47.1068416!1m0!3e0">Routenplan von Gleisdorf</a>
+          <a class="btn" target="blank" href="https://www.google.com/maps/dir/Gleisdorf,+8200/47.0282614,15.7714242/@47.0664296,15.6975194,9738m/data=!3m2!1e3!4b1!4m9!4m8!1m5!1m1!1s0x476e51b7d865316b:0x4a4cd8df13e8ef3a!2m2!1d15.7085092!2d47.1068416!1m0!3e0">Routenplan von Markt Hartmannsdorf</a>
+        </section>
+
+        <section>
+          <h2>🏕️ Übernachtungsmöglichkeiten 🏕️</h2>
+
+          <ul class="flex flex-col gap-2">
+            <li>
+              <a href="https://www.gasthof-gruber.at/">Gasthof Gruber - Markt Hartmannsdorf</a>
+            </li>
+            <li>
+              <a href="https://www.gaestehausjeindl.com/">Gästehaus Jeindl - Markt Hartmannsdorf</a>
+            </li>
+            <li>
+              <a href="http://bauernhofzoller.com/de/willkommen/">Bauernhof Zolller - Markt Hartmannsdorf</a>
+            </li>
+            <li><a href="https://ambio.co.at/">Ambio, Hotel - Gleisdorf</a></li>
+            <li>oder campieren auf der Hintergger-Ranch!</li>
+          </ul>
+        </section>
+      </main>
+    </div>
+
+    <script>
+
+      anime.timeline({loop: true})
+      .add({
+        targets: '.ml5 .line',
+        opacity: [0.5,1],
+        scaleX: [0, 1],
+        easing: "easeInOutExpo",
+        duration: 1500
+      }).add({
+        targets: '.ml5 .line',
+        duration: 1000,
+        easing: "easeOutExpo",
+        translateY: (el, i) => (-0.625 + 0.625*2*i) + "em"
+      }).add({
+        targets: '.ml5 .ampersand',
+        opacity: [0,1],
+        scaleY: [0.5, 1],
+        easing: "easeOutExpo",
+        duration: 1600,
+        offset: '-=600'
+      }).add({
+        targets: '.ml5 .letters-left',
+        opacity: [0,1],
+        translateX: ["0.5em", 0],
+        easing: "easeOutExpo",
+        duration: 1600,
+        offset: '-=300'
+      }).add({
+        targets: '.ml5 .letters-right',
+        opacity: [0,1],
+        translateX: ["-0.5em", 0],
+        easing: "easeOutExpo",
+        duration: 1600,
+        offset: '-=600'
+      }).add({
+        targets: '.ml5',
+        opacity: 0,
+        duration: 10000,
+        easing: "easeOutExpo",
+        delay: 10000
+      });
+    </script>
   </body>
-  </html>
+</html>
