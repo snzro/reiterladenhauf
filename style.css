@@ -559,6 +559,10 @@ video {
   display: flex;
 }
 
+.inline-flex {
+  display: inline-flex;
+}
+
 .table {
   display: table;
 }
@@ -573,6 +577,15 @@ video {
 
 .font-bold {
   font-weight: 700;
+}
+
+.underline {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+.underline-offset-2 {
+  text-underline-offset: 2px;
 }
 
 body {
@@ -606,6 +619,12 @@ body {
   display: grid;
   min-height: 100vh;
   place-items: center;
+}
+
+li a {
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+  text-underline-offset: 2px;
 }
 
 main {
