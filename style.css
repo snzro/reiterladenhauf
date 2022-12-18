@@ -555,6 +555,10 @@ video {
   margin-right: auto;
 }
 
+.mt-4 {
+  margin-top: 1rem;
+}
+
 .flex {
   display: flex;
 }
@@ -826,6 +830,10 @@ footer {
 }
 
 @media (min-width: 768px) {
+  .md\:gap-4 {
+    gap: 1rem;
+  }
+
   .md\:text-6xl {
     font-size: 3.75rem;
     line-height: 1;
