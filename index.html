@@ -5,53 +5,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>susannewilfriedreiterladenhauf</title>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/2.0.2/anime.min.js"></script>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <div class="mx-auto">
-      <h1 class="ml5">
-        <span class="text-wrapper">
-          <span class="line line1"></span>
-          <span class="letters letters-left">susanne</span>
-          <span class="letters ampersand">&amp;</span>
-          <span class="letters letters-right">wilfried</span>
-          <span class="line line2"></span>
-        </span>
-      </h1>
+    <div class="mx-auto font-bold text-center">
+      <h1 class="text-3xl sm:text-4xl md:text-6xl lg:text-8xl font-serif">susanne & wilfried</h1>
+      <h2>15. Juli 2023</h2>
     </div>
-
     <div class="wrapper">
       <main>
         <section>
           <h2>⏱️ Der Zeitliche Ablauf</h2>
 
-          <table>
-            <tr>
-              <td>≈ 12:00</td>
-              <td>Festliche Tafel der Familie 🍴</td>
-            </tr>
-            <tr>
-              <td>≈ 15:00</td>
-              <td>Empfang der Party Gäste 🍾</td>
-            </tr>
-            <tr>
-              <td>≈ 18:00</td>
-              <td>Abendessen 🍔</td>
-            </tr>
-            <tr>
-              <td>≈ 20:00</td>
-              <td>Full Supa Band! 🎸</td>
-            </tr>
-            <tr>
-              <td>≈ 00:00</td>
-              <td>Jausn 🥖</td>
-            </tr>
-          </table>
-        </section>
-
-        <section>
-          <a class="btn primary" href="https://docs.google.com/forms/d/e/1FAIpQLScOs2yZgKenGxNTTdWmvP0UMUvo39lPW4NQzhxHIzDdApeVLA/viewform?usp=sf_link">Zur Anmeldung ✏️</a>
+          <ul class="mx-auto">
+            <li>≈ 12:00 Festliche Tafel der Familie 🍴</li>
+            <li>≈ 15:00 Empfang der Party Gäste 🍾</li>
+            <li>≈ 18:00 Abendessen 🍔</li>
+            <li>≈ 20:00 Full Supa Band! 🎸</li>
+            <li>≈ 00:00 Jausn 🥖</li>
+          </ul>
         </section>
 
         <section>
@@ -65,7 +37,7 @@
         </section>
 
         <section>
-          <h2>🏕️ Übernachtungsmöglichkeiten</h2>
+          <h2 class="">🏕️ Übernachtungsmöglichkeiten</h2>
 
           <ul class="flex flex-col gap-2">
             <li>
@@ -81,12 +53,19 @@
             <li class="font-bold">oder campieren auf der Hintergger-Ranch!</li>
           </ul>
         </section>
-        <div>wir freuen uns schon!!</div>
+
+
+        <section>
+          <a class="btn primary" href="https://docs.google.com/forms/d/e/1FAIpQLScOs2yZgKenGxNTTdWmvP0UMUvo39lPW4NQzhxHIzDdApeVLA/viewform?usp=sf_link">Zur Anmeldung ✏️</a>
+
+          <br>
+          
+          <h2 class="text-4xl uppercase text-white">wir freuen uns schon!!</h2>
+        </section>
       </main>
     </div>
 
     <script>
-
       anime.timeline({loop: true})
       .add({
         targets: '.ml5 .line',
